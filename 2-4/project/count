@@ -1,0 +1,6 @@
+SELECT COUNT(*) AS NumberOfEmployees
+FROM Employees;
+
+
+SELECT COUNT(*) AS NumberOfOrders
+FROM Orders;

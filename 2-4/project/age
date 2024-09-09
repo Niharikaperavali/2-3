@@ -1,0 +1,6 @@
+SELECT AVG(Amount) AS AverageOrderAmount
+FROM Orders;
+
+
+SELECT AVG(TRUNC(MONTHS_BETWEEN(SYSDATE, DateOfBirth) / 12)) AS AverageAge
+FROM Employees;

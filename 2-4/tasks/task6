@@ -1,0 +1,6 @@
+SELECT *FROM Employees
+WHERE Department = 'HR';
+
+
+SELECT *FROM Orders
+WHERE Amount > 300;
